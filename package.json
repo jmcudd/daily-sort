@@ -28,7 +28,13 @@
     "daily",
     "scrum",
     "people",
-    "team"
+    "team",
+    "order",
+    "standup",
+    "stand-up",
+    "stand",
+    "up",
+    "meeting"
   ],
   "bugs": {
     "url": "https://github.com/jmcudd/daily-sort/issues"
