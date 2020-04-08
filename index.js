@@ -35,7 +35,7 @@ function shuffle(array) {
 
 var items=process.argv.slice(2).sort();
 shuffle(items);
-console.log(items);
+console.log(`Random Sort for ${chalk.green(doy())} day of the year`)
 items.forEach((item, i)=>{
-  console.log(`${i+1}.${chalk.blue(item)}`)
+  console.log(`${i+1}. ${chalk.blue(item)}`)
 })
