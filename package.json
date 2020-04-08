@@ -1,0 +1,21 @@
+{
+  "name": "daily-sort",
+  "version": "1.0.0",
+  "description": "Randomly sorts a list based on the day of the year.",
+  "main": "index.js",
+  "bin": {
+    "daily-sort": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "John Cudd",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "seedrandom": "^3.0.5"
+  }
+}
