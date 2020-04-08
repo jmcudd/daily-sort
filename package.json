@@ -17,5 +17,21 @@
   "dependencies": {
     "chalk": "^4.0.0",
     "seedrandom": "^3.0.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcudd/daily-sort.git"
+  },
+  "keywords": [
+    "sort",
+    "daily",
+    "scrum",
+    "people",
+    "team"
+  ],
+  "bugs": {
+    "url": "https://github.com/jmcudd/daily-sort/issues"
+  },
+  "homepage": "https://github.com/jmcudd/daily-sort#readme"
 }
