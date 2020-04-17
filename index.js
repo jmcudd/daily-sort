@@ -15,14 +15,14 @@ function doy() {
 
 function shuffle(array) {
   var rng = seedrandom(String(doy()));
-  var list=[...array];
+  var list=array.sort();
   var currentIndex = list.length,
     temporaryValue,
     randomIndex;
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
     // Pick a remaining element...
-    randomIndex = Math.floor(rng() * list.length);
+    randomIndex = Math.floor(rng() * currentIndex);
     currentIndex -= 1;
 
     // And swap it with the current element.
