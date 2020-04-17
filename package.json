@@ -1,6 +1,6 @@
 {
   "name": "daily-sort",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Randomly sorts a list based on the day of the year.",
   "main": "index.js",
   "bin": {
