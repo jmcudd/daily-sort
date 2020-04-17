@@ -13,7 +13,7 @@ function doy() {
   return day;
 }
 
-export function shuffle(array) {
+function shuffle(array) {
   var rng = seedrandom(String(doy()));
   var currentIndex = array.length,
     temporaryValue,
@@ -39,3 +39,5 @@ console.log(`Random Sort for day ${chalk.green(doy())} of this year`)
 items.forEach((item, i)=>{
   console.log(`${i+1}. ${chalk.blue(item)}`)
 })
+
+exports.shuffle = shuffle;
