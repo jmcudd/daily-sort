@@ -15,7 +15,8 @@ function doy() {
 
 function shuffle(array) {
   var rng = seedrandom(String(doy()));
-  var currentIndex = array.length,
+  var list=[...array];
+  var currentIndex = list.length,
     temporaryValue,
     randomIndex;
   // While there remain elements to shuffle...
@@ -25,12 +26,11 @@ function shuffle(array) {
     currentIndex -= 1;
 
     // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
+    temporaryValue = list[currentIndex];
+    list[currentIndex] = list[randomIndex];
+    list[randomIndex] = temporaryValue;
   }
-
-  return array;
+  return [...list];
 }
 
 var items=process.argv.slice(2).sort();
