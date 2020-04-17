@@ -13,7 +13,7 @@ function doy() {
   return day;
 }
 
-function shuffle(array) {
+export function shuffle(array) {
   var rng = seedrandom(String(doy()));
   var currentIndex = array.length,
     temporaryValue,

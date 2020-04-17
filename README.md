@@ -1,4 +1,4 @@
-## Usage
+## CLI Usage
 
 Randomly select the order in which your scrum stand-ups are run. No more
 guessing who give's their status update next. Run the command as many times as
@@ -16,6 +16,14 @@ Random Sort for 99 day of the year
 3. Jim
 4. Jack
 5. Bob
+```
+
+## Node.js Usage
+
+```
+import { shuffle } from 'daily-sort';
+const list=shuffle(['John','Jim', 'Bob', 'Sally', 'Jack']);
+console.log(list);
 ```
 
 ## Install 
