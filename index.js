@@ -22,7 +22,7 @@ function shuffle(array) {
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
     // Pick a remaining element...
-    randomIndex = Math.floor(rng() * currentIndex);
+    randomIndex = Math.floor(rng() * list.length);
     currentIndex -= 1;
 
     // And swap it with the current element.
